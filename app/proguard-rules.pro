@@ -1,0 +1,2 @@
+-keep class com.cardscanner.app.** { *; }
+-keep class com.google.ai.** { *; }
