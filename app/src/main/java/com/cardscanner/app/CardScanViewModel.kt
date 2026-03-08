@@ -65,7 +65,7 @@ class CardScanViewModel : ViewModel() {
         if (apiKey.isBlank()) throw Exception("Gemini API key not set")
 
         val model = GenerativeModel(
-            modelName = "gemini-1.5-flash",   // Free tier model
+            modelName = "gemini-2.0-flash",   // Free tier model
             apiKey = apiKey
         )
 
